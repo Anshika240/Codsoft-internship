@@ -1,0 +1,266 @@
+<html>
+<head>
+<title>Landing-Page</title>
+<style>
+
+
+.header-right {
+    position: absolute;
+    display: flex;
+    right:70px;
+    top: 20px;
+    gap: 30px;
+    margin-right:90px;
+    font-size: 18px;
+}
+
+.login
+{
+text-align:center;
+font-size: 20px;
+margin-bottom:100%;
+}
+
+.search
+{
+margin-left: 65%;
+margin-top:10px;
+}
+
+.search-input
+{
+    width:300px;
+    height:30px;
+}
+
+.category
+{
+    font-size:19px;
+}
+
+.categories
+{
+    display: flex;
+    font-size: 20px;
+    gap: 40px;
+    margin-left: 50%;
+}
+
+.mydiv
+{
+    position: relative;
+    margin-top: 10px;
+    height:300px;
+    width:450px;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    background-image: url('C:\Users\HP\OneDrive\Desktop\codsoft\shoppingimage.avif');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.mydiv img
+{
+    width:100%;
+    height: 100%;
+    object-fit:contain;
+    display: block;
+}
+
+.mydiv .text 
+{
+    position: absolute;
+    top: 55%;
+    margin-left:70px;
+    margin-right:10px;
+    color:black;
+    font-size: 30px;
+    text-align:right;
+    z-index: 1;
+}
+
+.mydiv .explore
+{
+    color: rgb(3, 3, 69);
+    position: absolute;
+    top: 90%; 
+    left: 55%; 
+    margin-left:100px;
+}
+
+#mydiv2
+{
+    margin-top: 20px;
+    width:100%;
+    height:250px; 
+    display: flex; 
+    flex-direction: row;
+}
+
+.div2
+{
+    position: relative;
+    margin-top: 28px;
+    margin-left: 70px;
+    height:180px;
+    width:370px;
+    text-align:center;
+    justify-content: center;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    border:0px solid white;
+    background-image: url("C:\Users\HP\OneDrive\Desktop\codsoft\shirt.jpg");
+    overflow: hidden;
+}
+
+.div2 img
+{
+    width:100%;
+    height: 100%;
+    object-fit:contain;
+    display: block;
+}
+
+.div2 .text1 
+{
+    position: absolute;
+    top:80%;
+    margin-left:140px;
+    margin-right:10px;
+    color:white;
+    font-size: 20px;
+    text-align:center;
+    z-index: 1;
+}
+
+.div3
+{
+    position: relative;
+    margin-top: 28px;
+    margin-left: 100px;
+    height:180px;
+    width:400px;
+    text-align:center;
+    justify-content: center;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    border:0px solid white;
+    background-image: url("C:\Users\HP\OneDrive\Desktop\codsoft\shirt.jpg");
+    overflow: hidden;
+}
+
+.div3 img
+{
+    width:100%;
+    height: 100%;
+    object-fit:contain;
+    display: block;
+}
+
+.div3 .text2 
+{
+    position: absolute;
+    top:80%;
+    margin-left:140px;
+    margin-right:10px;
+    color:rgb(244, 222, 184);
+    font-size: 20px;
+    text-align:center;
+    z-index: 1;
+}
+
+.div4
+{
+    position: relative;
+    margin-top: 28px;
+    margin-left: 90px;
+    height:180px;
+    width:400px;
+    text-align:center;
+    justify-content: center;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    border:0px solid white;
+    background-image: url("C:\Users\HP\OneDrive\Desktop\codsoft\bagscopy.jpg");
+    overflow: hidden;
+}
+
+.div4 img
+{
+    width:100%;
+    height: 100%;
+    object-fit:contain;
+    display: block;
+}
+
+.div4 .text3 
+{
+    position: absolute;
+    top:80%;
+    margin-left:140px;
+    margin-right:10px;
+    color:white;
+    font-size: 20px;
+    text-align:center;
+    z-index: 1;
+}
+</style>
+</head>
+
+<body bgcolor="C0C0C0">
+    <img src="C:\Users\HP\OneDrive\Desktop\codsoft\logocopy.jpg" style="height:60px; width:90px; margin-left: 50px; margin-top: 10px;">
+    <div class="header-right">
+        <div id="wishlist">Wishlist</div>
+        <div id="mycart">My Cart</div>
+        <a href="#login" class="login">Login</a>
+
+    </div>
+    
+    <div class="search" >
+        <input type="text" placeholder="Search anything here..." class="search-input">
+    </div>
+
+    <ul type="square" class="category">
+        <li>CATEGORIES</li>
+    </ul>
+    
+    <div class="categories">
+        <div class="category-item">Clothes</div>
+        <div class="category-item">Shoes</div>
+        <div class="category-item">T-shirt</div>
+        <div class="category-item">Accessories</div>
+        <div class="category-item">Bags</div>
+        <div class="category-item">Jewellery</div>
+        <div class="category-item">More</div>
+    </div>
+
+    <div class="mydiv">
+        <img src="C:\Users\HP\OneDrive\Desktop\codsoft\newimg.jpg" alt="Description of Image">
+        <div class="text">THE COOLEST STYLES ARE HERE <br>80% OFF</div>
+        <button class="explore">+Explore</button>
+    </div>
+
+    <div id="mydiv2">
+
+        <div class="div2" >
+            <img src="C:\Users\HP\OneDrive\Desktop\codsoft\shirt.jpg">
+            <div class="text1">Shop Now > <br></div>
+        </div>
+
+        <div class="div3" >
+            <img src="C:\Users\HP\OneDrive\Desktop\codsoft\shoescopy.jpg">
+            <div class="text2">Shop Now > <br></div>
+        </div>
+        <div class="div4" >
+            <img src="C:\Users\HP\OneDrive\Desktop\codsoft\bagscopy.jpg">
+            <div class="text3">Shop Now > <br></div>
+        </div>
+    </div>
+</body>
+</html>
