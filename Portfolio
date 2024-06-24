@@ -1,0 +1,146 @@
+<html>
+<head>
+<title>Portfolio</title>
+<style>
+.first 
+    {
+        height: 100px;
+        position: relative;
+        display: flex;
+        border:0px solid black;
+        text-align: center;
+        margin-top: 20px;
+    }   
+
+    .about::before
+    {
+        content: '\2714';
+        margin-left:2px;
+        font-size: 25px;
+        
+    }
+    .photo
+    {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .name
+    {
+        font-size: 50px;
+        text-align:center; 
+        margin-left: 500px;
+        margin-top: 50px; 
+        font-variant: small-caps;
+        line-height: 2.0;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .project
+    {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .project2
+    {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+</style>
+<title>Portfolio</title>
+</head>
+<body bgcolor="#FAF0E6">
+    <div class="first">
+        <img src="C:\Users\HP\OneDrive\Desktop\codsoft\logocopy.jpg" style="height:80px; width:100px; margin-left: 20px; margin-top: 10px;">
+        <center><font class="name">Anshika Gaur</font></center>
+    </div>
+    <center><font style="font-size:20px; font-style: italic; font-weight: bold;" >"The art of Web Design Where Imagination Meets Innovation"</font></center>
+    
+   
+
+    <section id="about">
+        <img src="C:\Users\HP\OneDrive\Desktop\codsoft\photo.jpg.jpeg" style="height:220px; width: 220px; margin-top: 15px;" alt="my Photo" class="photo">
+        <hr size="1" width="100%" color="black">
+
+        <div>
+            <u><h1>&#8594;About Me</h1></u>
+            <p>"Hello, I'm Anshika Gaur.I am a web developer with an amazing ability to develop websites that are both functional and aesthetically pleasing.
+                 I have a strong understanding of web standards and best practices, and I am passionate about creating websites that users will find easy to use and visually appealing. 
+                 I am also proficient in a variety of programming languages and tools, and I have a proven track record of delivering successful projects on time and within budget. 
+                 I am a team player who is always willing to lend a helping hand, and I am confident in my ability to contribute to any project. 
+                 I am looking for an opportunity to use my skills and experience to make a positive impact on the web."
+            </p>
+        </div>
+    </section>
+    <hr size="1" width="100%" color="black">
+
+    <section id="skills">
+        <u><h2>&#8594;Skills</h2></u>
+        <ul>
+            <li>Knowledge of C Language</li>
+            <li>Basic Knowledge of JAVA Language</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Basic knowledge of JavaScript</li>
+            <li>Basic knowledge of Node.js</li>
+        </ul>
+    </section>
+    <hr size="1" width="100%" color="black">
+
+    <section id="experience">
+        <u><h2>&#8594;Experience</h2></u>
+        <ul>
+            <li>I have attended 3 days of workshop on Data Science.</li>
+            <li>I have successfully completed 80 hours of training on PYTHON+SECURITY.</li>
+            <li>I have attended 2 days workshop on Ethical Hacking.</li>
+        </ul>
+    </section>
+    <hr size="1" width="100%" color="black">
+
+    <section id="projects">
+        <u><h1>&#8594;Projects </h1></u>
+
+        <div class="projects">
+            <center><h2>Project Title</h2></center>
+            <center><h3>1:-LANDING PAGE</h3></center>
+            <img src="C:\Users\HP\OneDrive\Desktop\codsoft\photooflandingpage.jpg.png" alt="Project One" style="height:400px; width: 1000px; margin-top: 15px; " class="project">
+            <p>
+                <h3>Description- </h3>This is my project of "LANDING PAGE".This landing page is based on a shopping website.I have completed this project with the help of HTML and CSS. 
+                This project contains a Logo,search bar and multiple categories of items or products.You can also add the items to Wishlist and Cart</p>
+        </div>
+        <div class="project">
+            <center><h2>Project Title</h2></center>
+            <center><h3>2:-CALCULATOR</h3></center>
+
+            <img src="C:\Users\HP\OneDrive\Desktop\codsoft\photoofcalculator.jpg.png" alt="Project Two" style="height:400px; width: 700px; margin-top: 15px; " class="project2">
+            <p>
+                <h3>Description- </h3>This is my project of "CALCULATOR".This calculator can perform all the basic operations like Addition,Subtraction,Multiplication
+                and Division. You can perform operations having decimal values as well.</p>
+            </p>
+        </div>
+        
+    </section>
+    <hr size="1" width="100%" color="black">
+
+    <section id="resume">
+        <u><h2>&#8594;My Resume</h2></u>
+        <a href="ANSHIKA-resume.pdf" download="resume">Download Now</a>
+    </section>
+    <hr size="1" width="100%" color="black">
+
+    <section id="contact">
+        <u><h2>&#8594;Contact Info:-</h2></u>
+        <p>Email: anshikagaur240@gmail.com</p>
+        <p>Linkedin ID: www.linkedin.com/in/anshika-gaur-8189062b8</p>
+        <p>Leetcode ID: https://leetcode.com/u/2314090_MCA_1_B/</p>
+    </section>
+    <hr size="1" width="100%" color="black">
+
+    <footer>
+        <p>&copy; 2024 Anshika Gaur. All rights reserved.</p>
+    </footer>
+</body>
+</html>
